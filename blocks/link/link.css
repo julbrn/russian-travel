@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  opacity: 1;
+  color: #fff;
+  cursor: url('./images/pointer/Pointer.png'), pointer;
+}
+
+.link:hover {
+  opacity: .2;
+  transition: opacity 1s ease-in-out;
+}

@@ -1,0 +1,13 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  box-sizing: border-box;
+  grid-template-rows: auto auto auto auto auto;
+  row-gap: 92px;
+  grid-template-areas:
+  'lead'
+  'intro'
+  'photo-grid'
+  'places'
+  'cover';
+}
