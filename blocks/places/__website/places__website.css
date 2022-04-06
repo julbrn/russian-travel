@@ -3,3 +3,10 @@
   grid-column: 2;
   align-self: end;
 }
+
+@media screen and (max-width: 568px) {
+  .places__website {
+    align-self: start;
+    padding: 0 16px 0;
+  }
+}

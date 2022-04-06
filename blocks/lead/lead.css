@@ -5,4 +5,23 @@
   align-items: center;
   padding: 56px 148px 0;
   grid-area: lead;
+  width: 100%;
+}
+
+@media screen and (max-width: 1140px) {
+  .lead {
+    padding: 48px 48px 0;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .lead {
+    padding: 48px 0 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead {
+    padding: 48px 0 0;
+  }
 }

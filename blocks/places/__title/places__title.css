@@ -8,3 +8,18 @@
   grid-column: 1;
   text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 984px) {
+  .places__title {
+    line-height: 1.095;
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places__title {
+    line-height: 1.093;
+    font-size: 32px;
+    padding: 0 16px 0;
+  }
+}

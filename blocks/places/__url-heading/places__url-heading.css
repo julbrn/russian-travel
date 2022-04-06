@@ -7,3 +7,9 @@
   margin: 0 0 12px 0;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 568px) {
+  .places__url-heading {
+    padding-top: 32px;
+  }
+}

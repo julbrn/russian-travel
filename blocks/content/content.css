@@ -1,8 +1,9 @@
 .content {
   display: grid;
+  flex-shrink: 0;
   grid-template-columns: 1fr;
-  box-sizing: border-box;
   grid-template-rows: auto auto auto auto auto;
+  box-sizing: border-box;
   row-gap: 92px;
   grid-template-areas:
   'lead'
@@ -10,4 +11,16 @@
   'photo-grid'
   'places'
   'cover';
+}
+
+@media screen and (max-width: 984px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .content {
+    row-gap: 64px;
+  }
 }
