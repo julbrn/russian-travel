@@ -1,10 +1,10 @@
-.places___paragraphs {
+.places__paragraphs {
   grid-row: 2;
   grid-column: 2;
 }
 
 @media screen and (max-width: 568px) {
-  .places___paragraphs {
+  .places__paragraphs {
     padding: 0 16px 0;
   }
 }
