@@ -9,17 +9,26 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 984px) {
   .lead__title {
-    font-size: 60px;
-    max-width: 425px;
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 760px) {
+  .lead__title {
+    font-size: calc(40px + (88 - 40) * ((100vw - 331px) / (760 - 331)));
+    max-width: 610px;
+  }
+}
+
+@media screen and (max-width: 330px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
     line-height: 1.1;
   }
 }
+
+
+
