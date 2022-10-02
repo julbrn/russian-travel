@@ -15,4 +15,5 @@
 Веб-страница создана с использованием *html* и *css*. Файловая структура организована в соответствии с БЭМ-методологией. В проекте были использованы *flex*, *grid*, *media-запросы* и др.
 ### **Как посмотреть**
 ---
-[Ссылка на проект на **GitHub Pages**](https://julbrn.github.io/russian-travel/)
+[Ссылка на проект на **GitHub Pages**](https://julbrn.github.io/russian-travel/) <br>
+[Макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0)
